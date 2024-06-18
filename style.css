@@ -1,0 +1,63 @@
+/* Modern Color Scheme */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #333; /* Dark gray for text */
+}
+
+.flex-container {
+    display: flex; /* Enable Flexbox */
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: #007bff; /* Vibrant blue for header */
+    color: white;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+#home {
+    background-image: url("hero-image.jpg"); /* Replace with your image */
+    background-size: cover;
+    min-height: 400px; /* Adjust as needed */
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.hero-text {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+    padding: 2rem;
+}
+
+.cta-button {
+    background-color: #28a745; /* Green for CTA */
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    cursor: pointer;
+}
+
+.product-grid {
+    gap: 2rem;
+}
+
+.product-square {
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid #ddd; /* Light gray border */
+    text-align: center;
+}
+
+/* Add more styles as needed */
