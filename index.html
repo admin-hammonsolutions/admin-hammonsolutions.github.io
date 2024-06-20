@@ -27,7 +27,6 @@
 
       <section id="banner">
         <div class="container">
-          <h2>Transform Your Ideas into Digital Reality</h2>
           <p>
             Partner with us for custom web apps and cutting-edge mobile
             solutions.
@@ -128,7 +127,7 @@
           </div>
         </div>
       </section>
-
+	  <br>
       <section id="contact" class="flex-container contact">
         <div class="container">
           <h2>Contact Us</h2>
@@ -136,13 +135,15 @@
             Ready to discuss your next project? We're here to help! Fill out the
             form below, and we'll be in touch soon.
           </p>
-          <form id="contact-form" action="#">
+          <form id="contact-form" 
+		  	action="https://formspree.io/f/mjkbbvab" 
+		  	method="POST">
             <div class="row gtr-50">
               <div class="col-6 col-12-small">
                 <input name="name" placeholder="Name" type="text" />
               </div>
               <div class="col-6 col-12-small">
-                <input name="email" placeholder="Email" type="text" />
+                <input name="email" placeholder="Email" type="email" />
               </div>
               <div class="col-12">
                 <textarea name="message" placeholder="Message"></textarea>
@@ -157,18 +158,19 @@
               </div>
             </div>
           </form>
+		  <br>
           <p>
             You can also reach us at
-            <a href="mailto:info@hammonsolutions.com"
-              >info@hammonsolutions.com</a
-            >
+            <a href="mailto:info@hammonsolutions.com">info@hammonsolutions.com</a>
             or call us at (555) 555-5555.
           </p>
         </div>
       </section>
 
-      <footer>
-        <p>&copy; 2024 Hammon Solutions</p>
+      <footer class="flex-container">
+		<div class="container">
+			<p>&copy; 2024 Hammon Solutions</p>
+		</div>
       </footer>
     </div>
   </body>
